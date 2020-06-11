@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c2947f;
+}
+.userCard {
+    margin-top: 150px;
+    max-width: 250px;
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userImage {
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    clip-path: polygon(50% 0%, 100% 21%, 100% 78%, 50% 100%, 0 79%, 0 21%);
+}
+
+.userName {
+    color: #c2947f;
+}
